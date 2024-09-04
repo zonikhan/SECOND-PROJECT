@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  color: red;
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 3rem;
+}
+h2{
+  color: blue;
+  background-color: rgb(0,183,255);
+  text-align: center;
+  font-size: 2.5rem;
+}
+h3{
+  color: rgb(214,20,46);
+  background-color: rgb(149,229,30);
+  text-align: center;
+  font-size: 2em;
+}
+h4{
+  color: green;
+  background-color: tomato;
+  text-align: center;
+  font-size: 1.75rem;
+}
+h5{
+  color:green;
+  background-color: palegoldenrod;
+  text-align: center;
+  font-size: 1.5rem;
+}
+h6{
+  color: blue;
+  background-color: blueviolet;
+   text-align: center;
+  font-size: 1.75rem;
+  
+}
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+ /* @media (prefeers-color-scheme: dark) {
+
+  :root  {
+
+  }
+
+ }
+ body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+ 
+ to bottom,
+ transparent,
+ reg9var(--background-end-rgb)
+  )
+ rgb(var(--background-start-rgb));
+ }
+ @lyer utilities {
+  .text-balance{
+    text-wrap: balance;
+  }
+ }
+ h4{
+  color:aquamarine,
+ }
+ p{
+  color: rgb(red, green, blue);
+ /* } */ 
